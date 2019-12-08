@@ -4,4 +4,6 @@
 
 2. get the differentially methylated sites (in this case, I have 2 cell groups/types of interest: Pos and Neg) using the file "get_differential_CpG_sites.R"
 
-3. Visualize the cells relative to their methylation status across sites of interest using the file "visualize_using_tSNE.R"
+3. visualize the cells relative to their methylation status across sites of interest using the file "visualize_using_tSNE.R"
+
+4. cluster cells using the file "cluster_cells_post_tSNE.R"
