@@ -1,13 +1,14 @@
 
-#after your plot and visualize the cells accroding to their methylation status, you may decide to cluster those cells
+#after you plot and visualize the cells accroding to their methylation status, you may decide to cluster those cells
 
-#downstream of the Rtsne done in "visualize_using_tSNE.R"
+#this is downstream of the Rtsne done in "visualize_using_tSNE.R"
 
 
-##this script is from the link before
+##the below script is from the link before
 
 #https://jmonlong.github.io/Hippocamplus/2018/02/13/tsne-and-clustering/
 
+#load libraries
 
 library(ggplot2)
 library(dplyr)
@@ -74,6 +75,12 @@ cell_name = c("N1","N2","N3","N4","N5","N6","N7","N8","N9","N10","N11","N12","N1
 
 plot(Rtsne$Y,col=cells, asp=1)
 
+
+
+
+
+
+###cluster the cells
 
 #get the hierarchical clustering using the t-SNE as input
 
