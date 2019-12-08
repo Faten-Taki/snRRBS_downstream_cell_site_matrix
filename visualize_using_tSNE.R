@@ -1,12 +1,14 @@
 
 #This file is for plotting the CpGs in the 2 cell groups (Neg and Pos) using t-SNE
 
-#the files outputted from X and Y will be used
+#the files outputted from get_differential_CpG_sites.R will be used
 
 
 
 
 #in R 
+
+R
 
 #read the tables containing the results from Barnard test as well as the table containing all individual cells as columns
 
@@ -89,7 +91,7 @@ write.table(data_3_ordered_subset_B, file = "sites_detected_in_3_cells_per_group
 
 
 
-#prepare to overlap with coordinates of interest
+#prepare to overlap with coordinates of interest (it is always good to do that, to prepare it for any intersectBed down the line)
 
 #order data based on chr name and then site position
 
