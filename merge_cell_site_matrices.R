@@ -1,12 +1,11 @@
 
-#This script uses the cell_site_matrix.csv outputted from the processing steps of single nuclear RRBS
+##This script uses the cell_site_matrix.csv outputted from the processing steps of single nuclear RRBS
 
-#the input file merged all matrix files for all 2 experiment Runs
+##the input file merged all matrix files for all 2 experiment Runs
 
+##merge all files from 2nd experiment
 
-#merge all files from 2nd experiment
-
-
+##Files have each row as one CpG site and each column as 1 cell
 
 #Open R
 
@@ -15,11 +14,6 @@ R
 #set working directory
 
 setwd("/path/to/files/on/local/machine/cell_site_matrix/")
-
-
-
-#Files have each row as one CpG site and each column as 1 cell
-
 
 
 #define merging function
